@@ -39,6 +39,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="33" y="327" width="62" height="59.5"/>
                                 </variation>
+                                <connections>
+                                    <action selector="redButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S4y-fN-HMf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGZ-Jf-pBL">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -48,6 +51,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="129" y="326" width="63" height="62"/>
                                 </variation>
+                                <connections>
+                                    <action selector="greenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="biV-JX-Vzv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seR-JW-ihG">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -57,6 +63,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="226" y="328" width="62" height="60"/>
                                 </variation>
+                                <connections>
+                                    <action selector="blueButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aof-CF-6cp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.65076488769999996" green="0.84420973799999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -80,6 +89,9 @@
                         </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="diceImageView" destination="Vzk-qi-0FQ" id="7dK-x3-faS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
