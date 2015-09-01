@@ -19,6 +19,13 @@
 		81B2DFA61B959A220017E163 /* dice4.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFA01B959A220017E163 /* dice4.png */; };
 		81B2DFA71B959A220017E163 /* dice5.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFA11B959A220017E163 /* dice5.png */; };
 		81B2DFA81B959A220017E163 /* dice6.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFA21B959A220017E163 /* dice6.png */; };
+		81B2DFB01B959DAB0017E163 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFA91B959DAB0017E163 /* blue.png */; };
+		81B2DFB11B959DAB0017E163 /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFAA1B959DAB0017E163 /* gray.png */; };
+		81B2DFB21B959DAB0017E163 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFAB1B959DAB0017E163 /* green.png */; };
+		81B2DFB31B959DAB0017E163 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFAC1B959DAB0017E163 /* orange.png */; };
+		81B2DFB41B959DAB0017E163 /* play_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFAD1B959DAB0017E163 /* play_blue.png */; };
+		81B2DFB51B959DAB0017E163 /* play_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFAE1B959DAB0017E163 /* play_gray.png */; };
+		81B2DFB61B959DAB0017E163 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFAF1B959DAB0017E163 /* red.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,13 @@
 		81B2DFA01B959A220017E163 /* dice4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice4.png; path = "../../../../Desktop/master อึ่ง/Resource/dice/dice4.png"; sourceTree = "<group>"; };
 		81B2DFA11B959A220017E163 /* dice5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice5.png; path = "../../../../Desktop/master อึ่ง/Resource/dice/dice5.png"; sourceTree = "<group>"; };
 		81B2DFA21B959A220017E163 /* dice6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice6.png; path = "../../../../Desktop/master อึ่ง/Resource/dice/dice6.png"; sourceTree = "<group>"; };
+		81B2DFA91B959DAB0017E163 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = "../../../../Desktop/master อึ่ง/Resource/imageButton/blue.png"; sourceTree = "<group>"; };
+		81B2DFAA1B959DAB0017E163 /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gray.png; path = "../../../../Desktop/master อึ่ง/Resource/imageButton/gray.png"; sourceTree = "<group>"; };
+		81B2DFAB1B959DAB0017E163 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = "../../../../Desktop/master อึ่ง/Resource/imageButton/green.png"; sourceTree = "<group>"; };
+		81B2DFAC1B959DAB0017E163 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orange.png; path = "../../../../Desktop/master อึ่ง/Resource/imageButton/orange.png"; sourceTree = "<group>"; };
+		81B2DFAD1B959DAB0017E163 /* play_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_blue.png; path = "../../../../Desktop/master อึ่ง/Resource/imageButton/play_blue.png"; sourceTree = "<group>"; };
+		81B2DFAE1B959DAB0017E163 /* play_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_gray.png; path = "../../../../Desktop/master อึ่ง/Resource/imageButton/play_gray.png"; sourceTree = "<group>"; };
+		81B2DFAF1B959DAB0017E163 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = "../../../../Desktop/master อึ่ง/Resource/imageButton/red.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +116,13 @@
 		81B2DF7B1B9593410017E163 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				81B2DFA91B959DAB0017E163 /* blue.png */,
+				81B2DFAA1B959DAB0017E163 /* gray.png */,
+				81B2DFAB1B959DAB0017E163 /* green.png */,
+				81B2DFAC1B959DAB0017E163 /* orange.png */,
+				81B2DFAD1B959DAB0017E163 /* play_blue.png */,
+				81B2DFAE1B959DAB0017E163 /* play_gray.png */,
+				81B2DFAF1B959DAB0017E163 /* red.png */,
 				81B2DF9D1B959A220017E163 /* dice1.png */,
 				81B2DF9E1B959A220017E163 /* dice2.png */,
 				81B2DF9F1B959A220017E163 /* dice3.png */,
@@ -211,12 +232,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				81B2DF831B9593410017E163 /* Main.storyboard in Resources */,
+				81B2DFB01B959DAB0017E163 /* blue.png in Resources */,
+				81B2DFB31B959DAB0017E163 /* orange.png in Resources */,
+				81B2DFB11B959DAB0017E163 /* gray.png in Resources */,
 				81B2DF881B9593410017E163 /* LaunchScreen.xib in Resources */,
+				81B2DFB61B959DAB0017E163 /* red.png in Resources */,
 				81B2DFA41B959A220017E163 /* dice2.png in Resources */,
 				81B2DFA31B959A220017E163 /* dice1.png in Resources */,
+				81B2DFB41B959DAB0017E163 /* play_blue.png in Resources */,
 				81B2DFA51B959A220017E163 /* dice3.png in Resources */,
 				81B2DF851B9593410017E163 /* Images.xcassets in Resources */,
 				81B2DFA71B959A220017E163 /* dice5.png in Resources */,
+				81B2DFB51B959DAB0017E163 /* play_gray.png in Resources */,
+				81B2DFB21B959DAB0017E163 /* green.png in Resources */,
 				81B2DFA81B959A220017E163 /* dice6.png in Resources */,
 				81B2DFA61B959A220017E163 /* dice4.png in Resources */,
 			);
