@@ -30,6 +30,13 @@ class ViewController: UIViewController {
     
     
     @IBAction func blueButton(sender: UIButton) {
+        
+        if(intDice==6){
+            intDice = 1
+        }else{
+            intDice++
+        }
+        changeImage(intDice)
     }
     
     //Change Image Dice
