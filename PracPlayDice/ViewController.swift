@@ -26,6 +26,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func greenButton(sender: UIButton) {
+        
+        intDice = Int(arc4random_uniform(6))+1
+        changeImage(intDice)
+        println("Dice ==> \(intDice)")
     }
     
     
