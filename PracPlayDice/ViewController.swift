@@ -22,6 +22,19 @@ class ViewController: UIViewController {
     @IBAction func blueButton(sender: UIButton) {
     }
     
+    //Change Image Dice
+    func changeImage(intDice:Int)->Void{
+    
+        switch(intDice){
+            case 
+        
+        
+        
+        
+        
+        } // switch
+    
+    } // Change Image Dice
     
     override func viewDidLoad() {
         super.viewDidLoad()
