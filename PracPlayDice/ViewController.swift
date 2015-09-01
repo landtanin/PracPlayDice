@@ -9,10 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //Explicit
+    var intDice:Int = 1
 
     @IBOutlet weak var diceImageView: UIImageView!
     
     @IBAction func redButton(sender: UIButton) {
+        
+        if(intDice==1){
+            intDice = 6
+        }else{
+            intDice--
+        }
+        changeImage(intDice)
     }
     
     @IBAction func greenButton(sender: UIButton) {
@@ -28,6 +38,7 @@ class ViewController: UIViewController {
         switch(intDice){
         case 1:
             diceImageView.image = UIImage(named: "dice1.png");
+            
             break
         case 2:
             diceImageView.image = UIImage(named: "dice2.png");
@@ -50,6 +61,7 @@ class ViewController: UIViewController {
 
             break
         default:
+            
             break
         
         
