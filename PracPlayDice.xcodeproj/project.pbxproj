@@ -13,6 +13,12 @@
 		81B2DF851B9593410017E163 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DF841B9593410017E163 /* Images.xcassets */; };
 		81B2DF881B9593410017E163 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DF861B9593410017E163 /* LaunchScreen.xib */; };
 		81B2DF941B9593410017E163 /* PracPlayDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2DF931B9593410017E163 /* PracPlayDiceTests.swift */; };
+		81B2DFA31B959A220017E163 /* dice1.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DF9D1B959A220017E163 /* dice1.png */; };
+		81B2DFA41B959A220017E163 /* dice2.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DF9E1B959A220017E163 /* dice2.png */; };
+		81B2DFA51B959A220017E163 /* dice3.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DF9F1B959A220017E163 /* dice3.png */; };
+		81B2DFA61B959A220017E163 /* dice4.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFA01B959A220017E163 /* dice4.png */; };
+		81B2DFA71B959A220017E163 /* dice5.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFA11B959A220017E163 /* dice5.png */; };
+		81B2DFA81B959A220017E163 /* dice6.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFA21B959A220017E163 /* dice6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		81B2DF8D1B9593410017E163 /* PracPlayDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracPlayDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B2DF921B9593410017E163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81B2DF931B9593410017E163 /* PracPlayDiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracPlayDiceTests.swift; sourceTree = "<group>"; };
+		81B2DF9D1B959A220017E163 /* dice1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice1.png; path = "../../../../Desktop/master อึ่ง/Resource/dice/dice1.png"; sourceTree = "<group>"; };
+		81B2DF9E1B959A220017E163 /* dice2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice2.png; path = "../../../../Desktop/master อึ่ง/Resource/dice/dice2.png"; sourceTree = "<group>"; };
+		81B2DF9F1B959A220017E163 /* dice3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice3.png; path = "../../../../Desktop/master อึ่ง/Resource/dice/dice3.png"; sourceTree = "<group>"; };
+		81B2DFA01B959A220017E163 /* dice4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice4.png; path = "../../../../Desktop/master อึ่ง/Resource/dice/dice4.png"; sourceTree = "<group>"; };
+		81B2DFA11B959A220017E163 /* dice5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice5.png; path = "../../../../Desktop/master อึ่ง/Resource/dice/dice5.png"; sourceTree = "<group>"; };
+		81B2DFA21B959A220017E163 /* dice6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice6.png; path = "../../../../Desktop/master อึ่ง/Resource/dice/dice6.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +102,12 @@
 		81B2DF7B1B9593410017E163 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				81B2DF9D1B959A220017E163 /* dice1.png */,
+				81B2DF9E1B959A220017E163 /* dice2.png */,
+				81B2DF9F1B959A220017E163 /* dice3.png */,
+				81B2DFA01B959A220017E163 /* dice4.png */,
+				81B2DFA11B959A220017E163 /* dice5.png */,
+				81B2DFA21B959A220017E163 /* dice6.png */,
 				81B2DF7C1B9593410017E163 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,7 +212,13 @@
 			files = (
 				81B2DF831B9593410017E163 /* Main.storyboard in Resources */,
 				81B2DF881B9593410017E163 /* LaunchScreen.xib in Resources */,
+				81B2DFA41B959A220017E163 /* dice2.png in Resources */,
+				81B2DFA31B959A220017E163 /* dice1.png in Resources */,
+				81B2DFA51B959A220017E163 /* dice3.png in Resources */,
 				81B2DF851B9593410017E163 /* Images.xcassets in Resources */,
+				81B2DFA71B959A220017E163 /* dice5.png in Resources */,
+				81B2DFA81B959A220017E163 /* dice6.png in Resources */,
+				81B2DFA61B959A220017E163 /* dice4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
