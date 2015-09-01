@@ -26,8 +26,31 @@ class ViewController: UIViewController {
     func changeImage(intDice:Int)->Void{
     
         switch(intDice){
-            case 
-        
+        case 1:
+            diceImageView.image = UIImage(named: "dice1.png");
+            break
+        case 2:
+            diceImageView.image = UIImage(named: "dice2.png");
+
+            break
+        case 3:
+            diceImageView.image = UIImage(named: "dice3.png");
+
+            break
+        case 4:
+            diceImageView.image = UIImage(named: "dice4.png");
+
+            break
+        case 5:
+            diceImageView.image = UIImage(named: "dice5.png");
+
+            break
+        case 6:
+            diceImageView.image = UIImage(named: "dice6.png");
+
+            break
+        default:
+            break
         
         
         
